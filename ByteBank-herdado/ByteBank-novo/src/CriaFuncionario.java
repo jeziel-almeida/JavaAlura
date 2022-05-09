@@ -1,13 +1,23 @@
 public class CriaFuncionario {
     public static void main(String[] args) {
-		Funcionario jezi = new Funcionario();
-		jezi.setNome("Jeziel");
-		jezi.setSalario(1000);
-		System.out.println(jezi.getNome() +" tem a bonificação de "+ jezi.getBonificacao());
 		
-		Gerente boni = new Gerente();
-		boni.setNome("Boni");
-		boni.setSalario(1000);
-		System.out.println(boni.getNome() +" tem a bonificação de "+ boni.getBonificacao());
+		Gerente jezielGerente = new Gerente();
+
+		jezielGerente.setSenha(321);
+		jezielGerente.setNome("Jeziel Almeida");
+		jezielGerente.setCpf("222-22");
+		jezielGerente.setSalario(2200);
+
+		boolean entrou = jezielGerente.autentica(321);
+
+		System.out.println();
+
+		System.out.println("Nome: "+jezielGerente.getNome());
+		System.out.println("CPF: "+jezielGerente.getCpf());
+		System.out.println("Salário: "+jezielGerente.getSalario());
+		System.out.println("Bonificação: "+jezielGerente.getBonificacao());
+		System.out.println("Entrou: "+entrou);
+
+		System.out.println();
 	}
 }

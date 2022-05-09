@@ -1,5 +1,6 @@
 public class Gerente extends Funcionario{
-    private int senha;
+    
+	private int senha;
 	
 	
 	public boolean autentica(int senha) {
