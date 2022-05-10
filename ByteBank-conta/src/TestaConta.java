@@ -6,9 +6,9 @@ public class TestaConta {
         ContaCorrente cc = new ContaCorrente(1001, 707);
         ContaPoupanca cp = new ContaPoupanca(2002, 150);
 
-        Cliente jeziel = new Cliente();
-        jeziel.setNome("Jeziel");
-        jeziel.setCpf(707);
+
+        Cliente jeziel = new Cliente("Jeziel BA", 707150, "Estudante");
+        
 
         cc.setTitular(jeziel);
 
@@ -16,6 +16,7 @@ public class TestaConta {
         cp.deposita(100);
 
         cc.transfere(15, cp);
+
 
     }
 }

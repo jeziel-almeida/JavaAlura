@@ -4,7 +4,11 @@ public class Cliente {
     private int cpf;
     private String profissao;
 
-
+    public Cliente(String nome, int cpf, String profissao) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.profissao = profissao;
+    }
 
     // GETTERS AND SETTERS
     public int getCpf() {
