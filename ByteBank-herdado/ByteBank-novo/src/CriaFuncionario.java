@@ -2,8 +2,12 @@ public class CriaFuncionario {
     public static void main(String[] args) {
 		
 		Gerente jezielGerente = new Gerente();
+		Administrador jezielAdm = new Administrador();
 
-		jezielGerente.setSenha(2222);
+		// jezielAdm.setSenha(2221);
+		// jezielGerente.setSenha(2222);
+
+
 		jezielGerente.setNome("Jeziel Almeida");
 		jezielGerente.setCpf("222-22");
 		jezielGerente.setSalario(2200);
@@ -11,8 +15,8 @@ public class CriaFuncionario {
 		System.out.println();
 	
 		SistemaInterno sisInterno = new SistemaInterno();
-		sisInterno.autentica(jezielGerente);
-
+		// sisInterno.autentica(jezielGerente);
+		// sisInterno.autentica(jezielAdm);
 
 
 		System.out.println("Nome: "+jezielGerente.getNome());
