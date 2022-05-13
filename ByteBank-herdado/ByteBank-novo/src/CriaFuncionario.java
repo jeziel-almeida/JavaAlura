@@ -7,9 +7,6 @@ public class CriaFuncionario {
 		// jezielAdm.setSenha(2221);
 		// jezielGerente.setSenha(2222);
 
-
-		jezielGerente.setNome("Jeziel Almeida");
-		jezielGerente.setCpf("222-22");
 		jezielGerente.setSalario(2200);
 
 		System.out.println();
@@ -17,12 +14,6 @@ public class CriaFuncionario {
 		SistemaInterno sisInterno = new SistemaInterno();
 		// sisInterno.autentica(jezielGerente);
 		// sisInterno.autentica(jezielAdm);
-
-
-		System.out.println("Nome: "+jezielGerente.getNome());
-		System.out.println("CPF: "+jezielGerente.getCpf());
-		System.out.println("Salário: "+jezielGerente.getSalario());
-		System.out.println("Bonificação: "+jezielGerente.getBonificacao());
 
 		System.out.println();
 	}

@@ -7,7 +7,7 @@ public class TestaConta {
         ContaPoupanca cp = new ContaPoupanca(2002, 150);
 
 
-        Cliente jeziel = new Cliente("Jeziel BA", 707150, "Estudante");
+        Cliente jeziel = new Cliente();
         
 
         cc.setTitular(jeziel);

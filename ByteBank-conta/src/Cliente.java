@@ -10,6 +10,10 @@ public class Cliente {
         this.profissao = profissao;
     }
 
+    public Cliente() {
+        
+    }
+
     // GETTERS AND SETTERS
     public int getCpf() {
         return cpf;
