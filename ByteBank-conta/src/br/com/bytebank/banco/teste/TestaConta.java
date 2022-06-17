@@ -1,5 +1,10 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaPoupanca;
+import br.com.bytebank.banco.modelo.Cliente;
+
 public class TestaConta {
-    
     public static void main(String[] args) {
         System.out.println();
 
@@ -16,6 +21,9 @@ public class TestaConta {
         cp.deposita(100);
 
         cc.transfere(15, cp);
+
+        System.out.println(cc.getSaldo());
+        System.out.println(cp.getSaldo());
 
 
     }

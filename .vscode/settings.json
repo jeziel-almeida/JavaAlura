@@ -1,8 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "ByteBank/src",
+        "Java-Pilha/src",
         "ByteBank-herdado/ByteBank-novo/src",
         "ByteBank-conta/src",
-        "Java-Pilha/src"
+        "Java-io/src"
     ]
 }
